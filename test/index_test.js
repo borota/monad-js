@@ -18,3 +18,16 @@ describe('Maybe monad', () => {
     test.strictEqual(content, text, 'monad has value');
   });
 });
+describe('Identity monad', () => {
+  let content = '';
+  const setContent = x => {
+    content = x;
+  };
+  const identity = sut.makeMonad();
+  const msg = 'Hello world.';
+  const monad = identity(msg);
+  monad.bind(setContent);
+  it('Identity test', () => {
+    test.strictEqual(content, msg, 'identity verifies');
+  });
+});

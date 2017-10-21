@@ -25,7 +25,7 @@ Following bundles are available:
 libraries and applications
 
 The package could also be downloaded directly from:
-[https://registry.npmjs.org/monad-js/-/monad-js-1.0.0.tgz](https://registry.npmjs.org/monad-js/-/monad-js-1.0.0.tgz)
+[https://registry.npmjs.org/monad-js/-/monad-js-1.0.1.tgz](https://registry.npmjs.org/monad-js/-/monad-js-1.0.1.tgz)
 
 ## More information
 

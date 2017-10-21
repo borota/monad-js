@@ -1,6 +1,6 @@
 {
   "name": "monad-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Douglas Crockford's monad library as UMD/ES6 module",
   "main": "build/monad-js.js",
   "mainMin": "build/monad-js.min.js",
@@ -58,7 +58,7 @@
     "coveralls": "^3.0.0",
     "eslint": "^4.9.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-import": "^2.8.0",
     "istanbul": "^0.4.5",
     "jsdoc-to-markdown": "^3.0.0",
     "mocha": "^4.0.1",
