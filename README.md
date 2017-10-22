@@ -30,9 +30,9 @@ The package could also be downloaded directly from:
 
 [Douglas Crockford's code](https://github.com/douglascrockford/monad)
 
-[Monads - YouTube](https://www.youtube.com/watch?v=dkZFtimgAcM)
+[Douglas Crockford on Monads (video)](https://www.youtube.com/watch?v=dkZFtimgAcM)
 
-[Don't fear the Monad](https://www.youtube.com/watch?v=ZhuHCtR3xq8)
+[Don't fear the Monad (video)](https://www.youtube.com/watch?v=ZhuHCtR3xq8)
 
 [The Marvels of Monads](https://blogs.msdn.microsoft.com/wesdyer/2008/01/10/the-marvels-of-monads/)
 
