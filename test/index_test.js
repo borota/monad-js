@@ -23,9 +23,8 @@ describe('Identity monad', () => {
   const setContent = x => {
     content = x;
   };
-  const identity = sut.makeMonad();
   const msg = 'Hello world.';
-  const monad = identity(msg);
+  const monad = sut.identity(msg);
   monad.bind(setContent);
   it('Identity test', () => {
     test.strictEqual(content, msg, 'identity verifies');

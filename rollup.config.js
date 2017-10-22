@@ -8,7 +8,7 @@ const isDev = process.env.BUILD === 'dev';
 const banner = isProduction
   ? '/**\n' +
     "* @file Douglas Crockford's monad library as UMD/ES6 module\n" +
-    '* @version 1.0.1\n' +
+    '* @version 1.0.2\n' +
     "* Based on Douglas Crockford's Public Domain monad.js library.\n" +
     "* This is an almost verbatim copy of Douglas Crockford's work, but\n" +
     '* made easy for use in browser/node.js, or as an ES6 module.\n' +
@@ -38,7 +38,8 @@ const banner = isProduction
     '*/\n\n' +
     '// https://github.com/douglascrockford/monad\n' +
     '// https://www.youtube.com/watch?v=dkZFtimgAcM\n' +
-    '// https://www.youtube.com/watch?v=b0EF0VTs9Dc\n'
+    '// https://www.youtube.com/watch?v=ZhuHCtR3xq8\n' +
+    '// https://blogs.msdn.microsoft.com/wesdyer/2008/01/10/the-marvels-of-monads/'
   : '';
 
 const external = Object.keys(pkg.dependencies);

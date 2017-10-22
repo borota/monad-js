@@ -12,8 +12,7 @@ Douglas Crockford's monad library as UMD/ES6 module
 
 ## Installation
 
-In order to use this library, [Node.js](https://nodejs.org) should be installed. 
-Then run:
+Have [Node.js](https://nodejs.org) installed. Then run:
 ```
 npm install monad-js --save
 ```
@@ -21,19 +20,21 @@ npm install monad-js --save
 Following bundles are available:
 * `monad-js.js` - UMD ES5 version for use in browser, node, etc.
 * `monad-js.min.js` - minified version of `monad-js.js`
-* `monad-js.esm.js` - ES6 module version, suitable for bundling with other 
-libraries and applications
+* `monad-js.esm.js` - ES6 module version, which can be used by bundlers like
+`rollup` or `webpack`
 
 The package could also be downloaded directly from:
-[https://registry.npmjs.org/monad-js/-/monad-js-1.0.1.tgz](https://registry.npmjs.org/monad-js/-/monad-js-1.0.1.tgz)
+[https://registry.npmjs.org/monad-js/-/monad-js-1.0.2.tgz](https://registry.npmjs.org/monad-js/-/monad-js-1.0.2.tgz)
 
 ## More information
 
 [Douglas Crockford's code](https://github.com/douglascrockford/monad)
 
-[Monads and Gonads - YouTube](https://www.youtube.com/watch?v=dkZFtimgAcM)
+[Monads - YouTube](https://www.youtube.com/watch?v=dkZFtimgAcM)
 
-[Another YouTube](https://www.youtube.com/watch?v=b0EF0VTs9Dc)
+[Don't fear the Monad](https://www.youtube.com/watch?v=ZhuHCtR3xq8)
+
+[The Marvels of Monads](https://blogs.msdn.microsoft.com/wesdyer/2008/01/10/the-marvels-of-monads/)
 
 ## License
 
@@ -62,9 +63,20 @@ npm run build
 ## API Reference
 
 * [monadJs](#module_monadJs)
+    * [.identity](#module_monadJs.identity)
     * [.maybe](#module_monadJs.maybe)
     * [.makeMonad](#module_monadJs.makeMonad)
 
+<a name="module_monadJs.identity"></a>
+
+### monadJs.identity
+The Identity Monad
+```
+ const monad = identity("Hello world.");
+ monad.bind(alert);
+```
+
+**Kind**: static property of [<code>monadJs</code>](#module_monadJs)  
 <a name="module_monadJs.maybe"></a>
 
 ### monadJs.maybe
