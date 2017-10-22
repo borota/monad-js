@@ -44,7 +44,7 @@ export default function makeMonad(modifier) {
   const prototype = Object.create(null);
   prototype.isMonad = true;
 
-  // Each call to MONAD will produce a new unit constructor function.
+  // Each call to makeMonad will produce a new unit constructor function.
 
   function unit(value) {
     // Construct a new monad.
@@ -61,7 +61,7 @@ export default function makeMonad(modifier) {
       return func(value, ...args);
     };
 
-    // If MONAD's modifier parameter is a function, then call it, passing the monad
+    // If makeMonad's modifier parameter is a function, then call it, passing the monad
     // and the value.
 
     if (typeof modifier === 'function') {

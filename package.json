@@ -42,10 +42,13 @@
   },
   "keywords": [
     "monad",
+    "monads",
     "monadJs",
     "monad.js",
     "monad-js",
-    "maybe"
+    "maybe",
+    "Douglas",
+    "Crockford"
   ],
   "author": "Greg Borota",
   "license": "MIT",
