@@ -8,11 +8,11 @@ const isDev = process.env.BUILD === 'dev';
 const banner = isProduction
   ? '/**\n' +
     "* @file Douglas Crockford's monad library as UMD/ES6 module\n" +
-    '* @version 1.0.2\n' +
+    '* @version 1.0.3\n' +
     "* Based on Douglas Crockford's Public Domain monad.js library.\n" +
     "* This is an almost verbatim copy of Douglas Crockford's work, but\n" +
     '* made easy for use in browser/node.js, or as an ES6 module.\n' +
-    '*\n' + 
+    '*\n' +
     '* As github does not provide a Public Domain option as one of the\n' +
     '* supported licenses, this work uses the liberal MIT license instead.\n' +
     '* @copyright (c) 2017 Greg Borota.\n' +
@@ -37,6 +37,7 @@ const banner = isProduction
     '* SOFTWARE.\n' +
     '*/\n\n' +
     '// https://github.com/douglascrockford/monad\n' +
+    '// https://gist.github.com/newswim/4668aef8a1f1bc0dabe8\n' +
     '// https://www.youtube.com/watch?v=dkZFtimgAcM\n' +
     '// https://www.youtube.com/watch?v=ZhuHCtR3xq8\n' +
     '// https://blogs.msdn.microsoft.com/wesdyer/2008/01/10/the-marvels-of-monads/'

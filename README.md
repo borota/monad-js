@@ -24,13 +24,15 @@ Following bundles are available:
 `rollup` or `webpack`
 
 The package could also be downloaded directly from:
-[https://registry.npmjs.org/monad-js/-/monad-js-1.0.2.tgz](https://registry.npmjs.org/monad-js/-/monad-js-1.0.2.tgz)
+[https://registry.npmjs.org/monad-js/-/monad-js-1.0.3.tgz](https://registry.npmjs.org/monad-js/-/monad-js-1.0.3.tgz)
 
 ## More information
 
 [Douglas Crockford's code](https://github.com/douglascrockford/monad)
 
 [Douglas Crockford on Monads (video)](https://www.youtube.com/watch?v=dkZFtimgAcM)
+
+[Notes from Crockford on Monads](https://gist.github.com/newswim/4668aef8a1f1bc0dabe8)
 
 [Don't fear the Monad (video)](https://www.youtube.com/watch?v=ZhuHCtR3xq8)
 

@@ -13,7 +13,9 @@ import makeMonad from './monad';
 export default makeMonad((monad, value) => {
   if (value === null || value === undefined) {
     monad.isNull = true;
-    monad.bind = () => monad;
+    monad.bind = function bind() {
+      return monad;
+    };
     return null;
   }
   monad.isNull = false;
