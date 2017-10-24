@@ -1,6 +1,6 @@
 {
   "name": "monad-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Douglas Crockford's monad library as UMD/ES6 module",
   "main": "build/monad-js.js",
   "mainMin": "build/monad-js.min.js",

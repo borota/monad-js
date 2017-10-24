@@ -24,7 +24,7 @@ Following bundles are available:
 `rollup` or `webpack`
 
 The package could also be downloaded directly from:
-[https://registry.npmjs.org/monad-js/-/monad-js-1.0.3.tgz](https://registry.npmjs.org/monad-js/-/monad-js-1.0.3.tgz)
+[https://registry.npmjs.org/monad-js/-/monad-js-1.0.4.tgz](https://registry.npmjs.org/monad-js/-/monad-js-1.0.4.tgz)
 
 ## More information
 A monad is, depending on the language and implementation, an `object` / `class`
@@ -41,9 +41,6 @@ Reason for existence of monads is to be able to compose functions that otherwise
 could not be composed, as they may be working on different domains.
 See [Brian Beckman: Don't fear the Monad (video)](https://www.youtube.com/watch?v=ZhuHCtR3xq8)
 for an excellent explanation.
-
-NOTE: the `vow` promise implementation is superseded by ES6 Promise and as such,
-obsoleted by it. It could still be used to implement promises in ES5 though.
 
 See also:
 
@@ -87,6 +84,7 @@ npm run build
     * [.identity](#module_monadJs.identity)
     * [.maybe](#module_monadJs.maybe)
     * [.makeMonad](#module_monadJs.makeMonad)
+    * [.vow](#module_monadJs.vow)
 
 <a name="module_monadJs.identity"></a>
 
@@ -146,3 +144,12 @@ is usually expected to return a monad.
 ```
 
 **Kind**: static property of [<code>monadJs</code>](#module_monadJs)  
+<a name="module_monadJs.vow"></a>
+
+### monadJs.vow
+Create a `vow` object, used to handle promises
+
+NOTE: ES6 has native support for Promises. This implementation could still be
+used to create promises in ES5 though.
+
+**Kind**: static constant of [<code>monadJs</code>](#module_monadJs)  
