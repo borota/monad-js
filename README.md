@@ -12,7 +12,7 @@ Douglas Crockford's monad library as UMD/ES6 module
 
 ## Installation
 
-Have [Node.js](https://nodejs.org) installed. Then run:
+Make sure [Node.js](https://nodejs.org) is installed. Then run:
 ```
 npm install monad-js --save
 ```
@@ -27,6 +27,25 @@ The package could also be downloaded directly from:
 [https://registry.npmjs.org/monad-js/-/monad-js-1.0.3.tgz](https://registry.npmjs.org/monad-js/-/monad-js-1.0.3.tgz)
 
 ## More information
+A monad is, depending on the language and implementation, an `object` / `class`
+/ `interface` / `type` with two required operations:
+  * `unit` (or `return`, `inject`) operation which sticks/shoves some arbitrary
+    data `a` into a monad `M a`. It could be viewed as a constructor or factory
+    taking in `a` and returning `M a`.
+    In short: `unit = a => M a`
+  *	`bind` (or `pipe`, `>>=`) operation taking in a monad `M a` and a function
+    `a => M b` and combining them to return a new monad `M b`.
+    In short: `bind = (M a, a => M b) => M b`
+
+Reason for existence of monads is to be able to compose functions that otherwise
+could not be composed, as they may be working on different domains.
+See [Brian Beckman: Don't fear the Monad (video)](https://www.youtube.com/watch?v=ZhuHCtR3xq8)
+for an excellent explanation.
+
+NOTE: the `vow` promise implementation is superseded by ES6 Promise and as such,
+obsoleted by it. It could still be used to implement promises in ES5 though.
+
+See also:
 
 [Douglas Crockford's code](https://github.com/douglascrockford/monad)
 
@@ -34,9 +53,9 @@ The package could also be downloaded directly from:
 
 [Notes from Crockford on Monads](https://gist.github.com/newswim/4668aef8a1f1bc0dabe8)
 
-[Don't fear the Monad (video)](https://www.youtube.com/watch?v=ZhuHCtR3xq8)
+[The Marvels of Monads by Wes Dyer](https://blogs.msdn.microsoft.com/wesdyer/2008/01/10/the-marvels-of-monads/)
 
-[The Marvels of Monads](https://blogs.msdn.microsoft.com/wesdyer/2008/01/10/the-marvels-of-monads/)
+[Eric Lippert on Monads in .NET](https://ericlippert.com/category/monads/)
 
 ## License
 
