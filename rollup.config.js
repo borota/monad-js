@@ -8,7 +8,7 @@ const isDev = process.env.BUILD === 'dev';
 const banner = isProduction
   ? '/**\n' +
     "* @file Douglas Crockford's monad library as UMD/ES6 module\n" +
-    '* @version 1.0.4\n' +
+    '* @version 1.0.5\n' +
     "* Based on Douglas Crockford's Public Domain monad.js library.\n" +
     "* This is an almost verbatim copy of Douglas Crockford's work, but\n" +
     '* made easy for use in browser/node.js, or as an ES6 module.\n' +
