@@ -24,7 +24,7 @@ Following bundles are available:
 `rollup` or `webpack`
 
 The package could also be downloaded directly from:
-[https://registry.npmjs.org/monad-js/-/monad-js-1.0.5.tgz](https://registry.npmjs.org/monad-js/-/monad-js-1.0.5.tgz)
+[https://registry.npmjs.org/monad-js/-/monad-js-1.0.6.tgz](https://registry.npmjs.org/monad-js/-/monad-js-1.0.6.tgz)
 
 ## More information
 A monad is, depending on the language and implementation, an `object` / `class`
